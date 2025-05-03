@@ -3,7 +3,7 @@ let searchBtn = document.querySelector("#searchBtn")
 let input = document.querySelector("#searchInput")
 
 function getMovies(name) {
-    const url = `http://www.omdbapi.com/?t=${encodeURIComponent(name)}&apikey=7cf1ce3d`;
+    const url = `https://www.omdbapi.com/?t=${encodeURIComponent(name)}&apikey=7cf1ce3d`;
 
     moviesCard.innerHTML = `
     <div class="bg-gray-800 rounded-xl overflow-hidden shadow-lg animate-pulse flex flex-col md:flex-row">
